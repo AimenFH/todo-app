@@ -2,6 +2,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: todo-config
-  namespace: todo-app
+  namespace: todo-app-aimen
 data:
   SERVER_URL: "http://127.0.0.1:3000"
+  CLOUDANT_URL: "https://049bba56-ade6-4d09-b45a-e28509f79f89-bluemix.cloudantnosqldb.appdomain.cloud"
+  CLOUDANT_DB_NAME: "todo-db-aimen"
+  BASE_PATH: "/todo-app-aimen"
